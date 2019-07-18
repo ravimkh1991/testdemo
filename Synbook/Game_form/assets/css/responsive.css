@@ -1,0 +1,111 @@
+
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {.back {
+    background: /*url(../image/Grey_BG.png)left top no-repeat ,url(../image/Mobile_Mockup.png)110% bottom no-repeat, url(../image/green_BG.png)375% top no-repeat;*/
+   url(../image/Grey_BG.png)left top no-repeat ,url(../image/Mobile_Mockup.png)130% bottom no-repeat, url(../image/green_BG.png)567px top no-repeat   /*height: 100% !important;*/
+}
+.back-login{background:  url(../image/Grey_BG.png)left top no-repeat , url(../image/green_BG.png)700px top no-repeat;}
+
+}
+@media only screen and (min-width: 1281px) and (max-width: 1440px) {.back {
+    background: url(../image/Grey_BG.png)-10% top no-repeat ,url(../image/Mobile_Mockup.png)right bottom no-repeat, url(../image/green_BG.png)181% top no-repeat;
+    
+}
+.back-login{background: url(../image/Grey_BG.png)-10% top no-repeat , url(../image/green_BG.png)261% top no-repeat;}
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1599px) {.back {
+    background: url(../image/Grey_BG.png)-10% top no-repeat ,url(../image/Mobile_Mockup.png)right bottom no-repeat, url(../image/green_BG.png)165% top no-repeat;
+    
+}
+.back-login{background: url(../image/Grey_BG.png)-10% top no-repeat , url(../image/green_BG.png)205% top no-repeat;}
+}
+@media only screen and (min-width: 1600px){
+  .back {
+    background: url(../image/Grey_BG.png)-10% top no-repeat ,url(../image/Mobile_Mockup.png)right bottom no-repeat, url(../image/green_BG.png)150% top no-repeat;
+    
+}
+.back-login{background: url(../image/Grey_BG.png)-10% top no-repeat , url(../image/green_BG.png)200% top no-repeat;}
+}
+@media only screen and (min-width: 1900px){
+  .back {
+    background: url(../image/Grey_BG.png)left top no-repeat ,url(../image/Mobile_Mockup.png)right bottom no-repeat, url(../image/green_BG.png)130% top no-repeat;
+    
+}
+.back-login{background: url(../image/Grey_BG.png)-10% top no-repeat , url(../image/green_BG.png)130% top no-repeat;}
+}
+
+@media only screen and (min-width: 1024px){
+  .back{/*height: 100%; *//*background-attachment: fixed;*/padding-bottom: 120px;}
+/*.back-login{background: url(../image/Grey_BG.png)-30% top no-repeat , url(../image/green_BG.png)645px top no-repeat;}*/
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+   /**/
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2){
+
+        .back{background: url(../image/Grey_BG.png)-30% top no-repeat ,url(../image/Mobile_Mockup.png)145% 154% no-repeat, url(../image/green_BG.png)-650% top no-repeat;
+}
+.popup-overlay{left: 65%;}
+
+.back-login{background: url(../image/Grey_BG.png)-30% top no-repeat , url(../image/green_BG.png)645px top no-repeat;}
+  }
+
+
+
+@media screen and (min-width: 768px) and (max-device-width: 1023px)
+{/*.back{background: url(../image/Grey_BG.png)-43% top no-repeat ,url(../image/Mobile_Mockup.png)145% 113% no-repeat, url(../image/green_BG.png)-185% top no-repeat;
+    height: 130vh;*/
+    .back, .back-login{height: unset;
+background: url(../image/Grey_BG.png)-43% top no-repeat ,url(../image/green_BG.png)-185% top no-repeat;
+    }
+
+.logo img{width: 70%;}
+.back{/*height: 100%; *//*background-attachment: fixed;*/padding-bottom: 0px;}
+.popup-overlay{left: 12%;}
+}
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.back, .back-login{background: /*url(../image/green_BG.png) -46% -1% no-repeat;*/url(../image/green_BG.png) -38% 0% no-repeat;}
+.logo img{width: 60%;}
+/*.mb-mckup-img{margin-left: 30px;}*/
+    .logo{    
+      margin-bottom: -35px !important;
+      margin-top: -50px;}
+   .back-login .logo{margin-top: 0px;}
+    .head-title{
+        margin-top: 10px;
+        font-size: 30px;}
+     .popup-overlay{left: 10%;}
+
+}
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+.back, .back-login {
+    background: url(../image/green_BG.png) -135% -1% no-repeat;
+}
+
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2){.back {
+    background: /*url(../image/Grey_BG.png)left top no-repeat ,url(../image/Mobile_Mockup.png)right bottom no-repeat, url(../image/green_BG.png)-380% -65% no-repeat;*/
+    url(../image/Grey_BG.png)left top no-repeat ,url(../image/Mobile_Mockup.png)598px bottom no-repeat, url(../image/green_BG.png)395px -65% no-repeat;
+}}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px){.back{/*height: 120% !important*/}}
+.back{ border-bottom: 1px solid #b1afaf; padding-top: 50px; }
